@@ -128,7 +128,13 @@ get_header();
 
 	<!-- Half block -->
 	<section class="section s-half-block s-half-block--content-left">
-        <div class="bg-img"></div>
+        <div class="bg-img">
+        <img class="lazy washmachine-img" 
+            src="<?php bloginfo('template_url'); ?>/img/loading.png" 
+            data-src="<?php bloginfo('template_url'); ?>/img/washmachine-mob.png" 
+            data-srcset="<?php bloginfo('template_url'); ?>/img/washmachine-mob.png" 
+            alt="Комфортний ремонт пральних машин">
+        </div>
         <div class="bg-color"></div>
         <div class="container">
             <div class="row">
