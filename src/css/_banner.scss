@@ -1,9 +1,15 @@
 .s-banner {
   position: relative;
-  min-height: 790px;
-  height: 790px;
+  min-height: 880px;
+  height: 880px;
   padding-bottom: 0;
   z-index: 2;
+
+  @media (min-width: 375px) {
+    min-height: 825px; 
+    height: 825px;
+  }
+
 
   .container,
   .row {
