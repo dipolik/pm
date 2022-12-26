@@ -226,6 +226,39 @@ function pralniymaster_scripts() {
 add_action( 'wp_enqueue_scripts', 'pralniymaster_scripts' );
 
 /*
+* Add 'Defer' to scripts
+*/
+
+function add_defer_attribute($tag, $handle) {
+	// add script handles to the array below
+	$scripts_to_defer = array('bootstrap-js', 'wow-js', 'lazy-js', 'wow-init-js');
+  
+	foreach($scripts_to_defer as $defer_script) {
+	   if ($defer_script === $handle) {
+		  return str_replace(' src', ' defer src', $tag);
+	   }
+	}
+	return $tag;
+ }
+ add_filter('script_loader_tag', 'add_defer_attribute', 10, 2);
+
+/*
+* Add 'Async' to scripts
+*/
+//  function add_async_attribute($tag, $handle) {
+// 	// add script handles to the array below
+// 	$scripts_to_async = array('google_map_api');  
+// 	foreach($scripts_to_async as $async_script) {
+// 	   if ($async_script === $handle) {
+// 		  return str_replace(' src', ' async="async" src', $tag);
+// 	   }
+// 	}
+// 	return $tag;
+//  }
+//  add_filter('script_loader_tag', 'add_async_attribute', 10, 2);
+
+
+/*
 * Translation
 */
 add_action('init', function() {

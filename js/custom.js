@@ -53,7 +53,7 @@ function ready() {
         binotelTooltip.classList.add('bingc-phone-button-tooltip-bottom-right');
         binotelTooltip.classList.remove('bingc-phone-button-tooltip-bottom-left');
     }
-    setTimeout(moveBinotelTooltip, 2000);
+    setTimeout(moveBinotelTooltip, 3000);
     
 
     // Change Language toggler to UA/RU
