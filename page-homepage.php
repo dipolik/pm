@@ -311,26 +311,55 @@ get_header();
                         <div class="brands-wrapper w-100 d-md-inline-flex justify-content-md-between flex-md-wrap">
 
                             <div class="col d-flex flex-column justify-content-sm-center align-items-md-start">
-                                <img class="logo-item align-self-center align-self-md-start" src="<?php bloginfo('template_url'); ?>/img/bosch-logo.png"
-                                    alt="Пральний Майстер">
-                                <img class="logo-item align-self-center align-self-md-start" src="<?php bloginfo('template_url'); ?>/img/ariston-logo.png"
-                                    alt="Пральний Майстер">
-                                <img class="logo-item align-self-center align-self-md-start" src="<?php bloginfo('template_url'); ?>/img/electrolux-logo.png" alt="Пральний Майстер">
+                                <img class="logo-item align-self-center align-self-md-start" 
+                                     src="<?php bloginfo('template_url'); ?>/img/bosch-logo.png"
+                                     width="185"
+                                     height="40"
+                                     alt="Пральний Майстер">
+                                <img class="logo-item align-self-center align-self-md-start" 
+                                     src="<?php bloginfo('template_url'); ?>/img/ariston-logo.png"
+                                     width="200"
+                                     height="40"
+                                     alt="Пральний Майстер">
+                                <img class="logo-item align-self-center align-self-md-start" 
+                                     src="<?php bloginfo('template_url'); ?>/img/electrolux-logo.png" 
+                                     width="202"
+                                     height="25"
+                                     alt="Пральний Майстер">
                             </div>
                             <div class="col d-flex flex-column justify-content-sm-center align-items-md-center">
-                                <img class="logo-item align-self-center" src="<?php bloginfo('template_url'); ?>/img/indesit-logo.png"
-                                    alt="Пральний Майстер">
-                                <img class="logo-item align-self-center" src="<?php bloginfo('template_url'); ?>/img/lg-logo.png" alt="Пральний Майстер">
-                                <img class="logo-item align-self-center" src="<?php bloginfo('template_url'); ?>/img/whirlpool-logo.png"
-                                    alt="Пральний Майстер">
+                                <img class="logo-item align-self-center" 
+                                     src="<?php bloginfo('template_url'); ?>/img/indesit-logo.png"
+                                     width="150"
+                                     height="40"
+                                     alt="Пральний Майстер">
+                                <img class="logo-item align-self-center" 
+                                     src="<?php bloginfo('template_url'); ?>/img/lg-logo.png" 
+                                     width="92"
+                                     height="40"
+                                     alt="Пральний Майстер">
+                                <img class="logo-item align-self-center" 
+                                     src="<?php bloginfo('template_url'); ?>/img/whirlpool-logo.png"
+                                     width="129"
+                                     height="40"
+                                     alt="Пральний Майстер">
                             </div>
                             <div class="col d-flex flex-column justify-content-sm-center align-items-md-end">
-                                <img class="logo-item align-self-center align-self-md-end" src="<?php bloginfo('template_url'); ?>/img/samsung-logo.png"
-                                    alt="Пральний Майстер">
-                                <img class="logo-item align-self-center align-self-md-end" src="<?php bloginfo('template_url'); ?>/img/Siemens-logo.png"
-                                    alt="Пральний Майстер">
-                                <img class="logo-item align-self-center align-self-md-end" src="<?php bloginfo('template_url'); ?>/img/smeg-logo.png"
-                                    alt="Пральний Майстер">
+                                <img class="logo-item align-self-center align-self-md-end" 
+                                     src="<?php bloginfo('template_url'); ?>/img/samsung-logo.png"
+                                     width="154"
+                                     height="52"
+                                     alt="Пральний Майстер">
+                                <img class="logo-item align-self-center align-self-md-end" 
+                                     src="<?php bloginfo('template_url'); ?>/img/Siemens-logo.png"
+                                     width="169"
+                                     height="40"
+                                     alt="Пральний Майстер">
+                                <img class="logo-item align-self-center align-self-md-end" 
+                                     src="<?php bloginfo('template_url'); ?>/img/smeg-logo.png"
+                                     width="182"
+                                     height="34"
+                                     alt="Пральний Майстер">
                             </div>
                         </div>
                     </div>
