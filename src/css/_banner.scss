@@ -201,6 +201,13 @@
   // Styles for RU locale
 
   .ru & {
+    min-height: 930px;
+    height: 930px;
+
+    @media (min-width: 375px) {
+      min-height: 850px;
+      height: 850px;
+    }
 
     .banner-achievements {
       p {
