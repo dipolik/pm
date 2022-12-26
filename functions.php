@@ -215,9 +215,9 @@ function pralniymaster_scripts() {
 
 
 	wp_enqueue_script( 'bootstrap-js' , get_template_directory_uri() . '/bootstrap/js/bootstrap.bundle.min.js', array('jquery') );
-	wp_enqueue_script( 'lazy-js' , get_template_directory_uri() . '/js/lazy.js', array('jquery'), null, 'in_footer');
 	wp_enqueue_script( 'wow-js' , get_template_directory_uri() . '/js/wow.min.js', array('jquery'), null, 'in_footer');
-	wp_enqueue_script( 'wow-init-js' , get_template_directory_uri() . '/js/custom.js', array('jquery'), null, 'in_footer');
+	wp_enqueue_script( 'lazy-js' , get_template_directory_uri() . '/js/lazy.js', array('jquery'), null, 'in_footer');
+	wp_enqueue_script( 'custom' , get_template_directory_uri() . '/js/custom.js', array('jquery'), null, 'in_footer');
 	
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
@@ -229,28 +229,28 @@ add_action( 'wp_enqueue_scripts', 'pralniymaster_scripts' );
 * Add 'Defer' to scripts
 */
 
-function add_defer_attribute($tag, $handle) {
-	// add script handles to the array below
-	$scripts_to_defer = array('bootstrap-js', 'wow-js', 'lazy-js', 'wow-init-js');
+// function add_defer_attribute($tag, $handle) {
+// 	// add script handles to the array below
+// 	$scripts_to_defer = array('bootstrap-js', 'wow-js', 'lazy-js', 'custom');
   
-	foreach($scripts_to_defer as $defer_script) {
-	   if ($defer_script === $handle) {
-		  return str_replace(' src', ' defer src', $tag);
-	   }
-	}
-	return $tag;
- }
- add_filter('script_loader_tag', 'add_defer_attribute', 10, 2);
+// 	foreach($scripts_to_defer as $defer_script) {
+// 	   if ($defer_script === $handle) {
+// 		  return str_replace(' src', ' defer src', $tag);
+// 	   }
+// 	}
+// 	return $tag;
+//  }
+//  add_filter('script_loader_tag', 'add_defer_attribute', 10, 2);
 
 /*
 * Add 'Async' to scripts
 */
 //  function add_async_attribute($tag, $handle) {
 // 	// add script handles to the array below
-// 	$scripts_to_async = array('google_map_api');  
+// 	$scripts_to_async = array( );  
 // 	foreach($scripts_to_async as $async_script) {
 // 	   if ($async_script === $handle) {
-// 		  return str_replace(' src', ' async="async" src', $tag);
+// 		  return str_replace(' src', ' async src', $tag);
 // 	   }
 // 	}
 // 	return $tag;
