@@ -57,10 +57,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     			<!-- Brand and toggle get grouped for better mobile display -->
     		
 				<a class="navbar-brand site-logo site-logo--drk d-flex align-items-center" href="<?php echo get_site_url(); ?>">
-					
-						<img src="<?php bloginfo('template_url'); ?>/img/logo-icon.svg" alt="Пральний Майстер" class="icon">
-					 <span>Пральний Майстер</span></a>
-					<?php
+					<img src="<?php bloginfo('template_url'); ?>/img/logo-icon.svg" alt="Пральний Майстер" class="icon" width="120" height="43">
+					<span>Пральний Майстер</span>
+				</a>
+				
+				<?php
  
  				if ( is_active_sidebar( 'header-phones-widget' ) ) : ?>
 					 <div id="header-widget-area" class="navbar-widget-area" role="complementary">
