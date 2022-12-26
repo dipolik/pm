@@ -1,0 +1,49 @@
+.post {
+    margin-bottom: 3rem;
+
+
+    &-template-default {
+        .site-content {
+            padding-top: 1rem;
+
+            @include screen_992 {
+                padding-top: 2rem;
+            }
+        }
+    }
+
+    &-entry-title {
+        margin-bottom: 1rem;
+    }
+
+    &-thumbnail-wrapper {
+        padding-bottom: 1rem;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    &-navigation {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 3rem;
+
+        @include screen_768 {
+            flex-direction: row;
+        }
+
+        .card {
+            margin-bottom: 1rem;
+
+            @include screen_768 {
+                margin-bottom: 0;
+            }
+        }
+
+        .card-img-top {
+            height: auto;
+        }
+    }
+}

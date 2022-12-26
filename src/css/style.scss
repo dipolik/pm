@@ -1,0 +1,58 @@
+@import '../../node_modules/bootstrap/scss/bootstrap';
+@import '../fonts/montserrat/styles.css';
+@import 'variables';
+@import 'mixins';
+@import 'base';
+@import 'typography';
+@import 'inputs';
+@import 'modal';
+@import 'buttons';
+@import 'header';
+@import 'banner';
+@import 's-achiv';
+@import 's-half-block';
+@import 's-pricelist';
+@import 's-process';
+@import 's-form';
+@import 'wpcf7';
+@import 's-brands';
+@import 's-footer';
+@import 'post';
+@import 'category';
+@import 'sidebar';
+@import 'binotel';
+
+
+
+body {
+    font-family: Montserrat, sans-serif;
+    color: $black;
+}
+
+.wow {
+    visibility: hidden;
+  }
+
+.site-content {
+    padding-top: 4rem !important;
+
+    @include screen_992 {
+        padding-top: 7rem !important;
+    }
+}
+
+.fadeInUp {
+    animation-duration: .4s;
+}
+
+.slideInLeft,
+.slideInRight {
+    animation-duration: .8s;
+}
+
+@media only screen and (max-width:768px) {
+    .wow {
+        animation-delay: 0s !important;
+    }
+
+}

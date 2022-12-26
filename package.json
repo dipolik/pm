@@ -1,0 +1,60 @@
+{
+  "name": "pralniy-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dima Polikarpov",
+  "license": "ISC",
+  "dependencies": {
+    "body-scroll-lock": "^4.0.0-beta.0",
+    "bootstrap": "^4.6.0",
+    "browser-sync": "^2.26.14",
+    "del": "^5.1.0",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-clone": "^2.0.1",
+    "gulp-file-include": "^2.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "gulp-uglify-es": "^3.0.0",
+    "gulp-watch": "^5.0.1",
+    "gulp-webp-css": "^1.1.0",
+    "imagemin-mozjpeg": "^8.0.0",
+    "imagemin-webp": "^5.1.0",
+    "node-sass": "^4.14.1",
+    "sass": "^1.43.3",
+    "wowjs": "^1.1.3"
+  },
+  "browserslist": [
+    "> 1%",
+    "ie >= 8",
+    "edge >= 15",
+    "ie_mob >= 10",
+    "ff >= 45",
+    "chrome >= 45",
+    "safari >= 6",
+    "opera >= 23",
+    "ios >= 6",
+    "android >= 4",
+    "bb >= 10"
+  ],
+  "devDependencies": {
+    "fontmin": "^0.9.9",
+    "gulp": "^4.0.2",
+    "gulp-newer": "^1.4.0",
+    "gulp-sass": "^3.2.1",
+    "gulp-webp": "^4.0.1",
+    "imagemin-giflossy": "^5.1.10",
+    "imagemin-pngquant": "^9.0.1",
+    "imagemin-zopfli": "^7.0.0",
+    "posthtml": "^0.13.4",
+    "posthtml-webp": "^2.1.0"
+  }
+}

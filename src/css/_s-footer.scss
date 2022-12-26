@@ -1,0 +1,38 @@
+.s-footer {
+    background: linear-gradient(180deg, #003D68 0%, #00528C 100%);
+
+    @media (min-width: 768px) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .site-logo {
+        width: 120px;
+
+        @include screen_992 {
+            width: 150px;
+        }
+
+        span {
+            display: none;
+        }
+        
+    }
+
+    &--phone {
+        font-weight: 500;
+        font-size: 22px;
+        color: white;
+        margin-bottom: 0;
+        display: block;
+
+        &:hover {
+            color: white;
+            text-decoration: none;
+        }
+
+        @include screen_768 {
+            font-size: 20px;
+        }
+    }
+}

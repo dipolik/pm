@@ -1,0 +1,11 @@
+.modal {
+
+    &-dialog {
+        max-width: 400px;
+    }
+    
+    &-backdrop {
+        z-index: 1020;
+
+    }
+}

@@ -1,0 +1,18 @@
+// media width mixins
+@mixin screen_768 {
+    @media (min-width: 768px) {
+        @content;
+    }
+}
+
+@mixin screen_992 {
+    @media (min-width: 992px) {
+        @content;
+    }
+}
+
+@mixin screen_1200 {
+    @media (min-width: 1200px) {
+        @content;
+    }
+}

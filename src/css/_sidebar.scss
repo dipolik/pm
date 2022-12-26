@@ -1,0 +1,58 @@
+.sidebar {
+  
+  &-form {
+    max-width: 100%;
+  }
+
+  &-submit {
+    @include screen_768 {
+      font-size: 12px;
+      width: 100%;
+      padding: 15px 0 15px 0;
+    }
+
+    @include screen_992 {
+      font-size: 14px;
+      padding: 15px 30px 15px 30px;
+      width: auto;
+    }
+  }
+
+  &--discount-wrapper  {
+      padding-top: 20px;
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+    
+    .discount-text {
+      font-weight: 700;
+      width: 100%;
+      display: inline-block;
+
+      @include screen_768 {
+        width: 70%;
+      }
+  
+      span {
+        font-size: 1.5rem;
+        color: #4caf50;
+      }
+    }
+  }
+
+    .widget_block {
+      margin-bottom: 2rem;
+    }
+
+    .list-unstyled {
+      .list-item {
+        font-weight: 500;
+      }
+
+      a {
+        &:hover {
+          color: $lt-green;
+        }
+      }
+    }
+}
