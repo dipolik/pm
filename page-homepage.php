@@ -13,11 +13,11 @@ get_header();
             <div class="row">
                 <div class="col-12 col-md-7 col-lg-6 ">
                     <div class="s-banner--content-wrapper decor-line">
-                        <h2 class="s-title title-line banner-title wow fadeInUp"><?php pll_e('Терміновий ремонт вашої <br> пральної машини, на дому.'); ?></h2>
+                        <h2 class="s-title title-line banner-title"><?php pll_e('Терміновий ремонт вашої <br> пральної машини, на дому.'); ?></h2>
                         <div class="banner-achievements w-100 d-inline-flex justify-content-between">
-                            <p class="dark-blue wow fadeInUp" data-wow-delay=".2s"><?php pll_e('ШВИДКО') ?></p>
-                            <p class="dark-green wow fadeInUp" data-wow-delay=".3s"><?php pll_e('ЯКІСНО') ?></p>
-                            <p class="light-green wow fadeInUp" data-wow-delay=".5s"><?php pll_e('від 400грн') ?></p>
+                            <p class="dark-blue"><?php pll_e('ШВИДКО') ?></p>
+                            <p class="dark-green"><?php pll_e('ЯКІСНО') ?></p>
+                            <p class="light-green"><?php pll_e('від 400грн') ?></p>
                         </div>
                         
 						<!-- cf7 Banner Form-->
@@ -25,10 +25,10 @@ get_header();
                         <?php echo do_shortcode( '[contact-form-7 id="70" title="Homepage Banner Form Extended"]' ); ?>
 
                         <ul class="list-unstyled list-done">
-                            <li class="list-done--item dark-green wow fadeInUp" data-wow-delay="1s"><?php pll_e('24/7 Без вихідних та свят') ?></li>
-                            <li class="list-done--item dark-green wow fadeInUp" data-wow-delay="1.2s"><?php pll_e('Гарантія до 12 місяців') ?></li>
-                            <li class="list-done--item dark-green wow fadeInUp" data-wow-delay="1.4s"><?php pll_e('Час обираєте - Ви!') ?></li>
-                            <li class="list-done--item dark-green wow fadeInUp" data-wow-delay="1.5s"><?php pll_e('Всі райони Києва та передмістя') ?></li>
+                            <li class="list-done--item dark-green" ><?php pll_e('24/7 Без вихідних та свят') ?></li>
+                            <li class="list-done--item dark-green" ><?php pll_e('Гарантія до 12 місяців') ?></li>
+                            <li class="list-done--item dark-green" ><?php pll_e('Час обираєте - Ви!') ?></li>
+                            <li class="list-done--item dark-green" ><?php pll_e('Всі райони Києва та передмістя') ?></li>
                         </ul>
                     </div>
                 </div>

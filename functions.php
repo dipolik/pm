@@ -225,6 +225,15 @@ function pralniymaster_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'pralniymaster_scripts' );
 
+
+// function gomahamaya_dns_prefetch() {
+//     echo '<meta http-equiv="x-dns-prefetch-control" content="on">
+// <link rel="dns-prefetch" href="//3rd-party-domain1.com" />
+// <link rel="dns-prefetch" href="//3rd-party-domain2.com" /> 
+// <link rel="dns-prefetch" href="//3rd-party-domain3.com" />'; // last step has '; make sure it should be therein last 
+// }
+// add_action('wp_head', 'gomahamaya_dns_prefetch', 0);
+
 /*
 * Add 'Defer' to scripts
 */
@@ -235,7 +244,7 @@ function add_defer_attribute($tag, $handle) {
   
 	foreach($scripts_to_defer as $defer_script) {
 	   if ($defer_script === $handle) {
-		  return str_replace(' src', ' rel="dns-prefetch" defer src', $tag);
+		  return str_replace(' src', ' defer src', $tag);
 	   }
 	}
 	return $tag;
