@@ -235,7 +235,7 @@ function add_defer_attribute($tag, $handle) {
   
 	foreach($scripts_to_defer as $defer_script) {
 	   if ($defer_script === $handle) {
-		  return str_replace(' src', ' defer src', $tag);
+		  return str_replace(' src', ' rel="dns-prefetch" defer src', $tag);
 	   }
 	}
 	return $tag;

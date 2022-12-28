@@ -20,21 +20,40 @@
             height: 100%;
         }
 
-        .washmachine-img {
+        .washmachine-img-wrapper {
             position: absolute;
             top: 0;
             left: 50%;
             transform: translate(-50%, 0);
-            max-height: 100%;
+            height: 100%;
             
             @media (min-width: 768px) {
                 left: 0;
+                transform: translate(-30%, 0);
+            }
+
+            @media (min-width: 992px) {
                 transform: translate(0, 0);
+            }
+
+            @media (min-width: 1440px) {
+                &:after {
+                    content: '';
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    right: -100%;
+                    left: auto;
+                    top: 0;
+                    background: linear-gradient(0deg, #719c92, #b1ddda);
+                }
             }
         }
 
-
-
+        .washmachine-img {
+            width: auto;
+            height: 100%;
+        }
     }
 
     .bg-color {

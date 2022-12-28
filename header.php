@@ -28,7 +28,7 @@
     <meta name="theme-color" content="#ffffff">
 
 	<!-- Google Tag Manager -->
-	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	<script rel="dns-prefetch">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
@@ -66,7 +66,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
  				if ( is_active_sidebar( 'header-phones-widget' ) ) : ?>
 					 <div id="header-widget-area" class="navbar-widget-area" role="complementary">
 						<!-- Button trigger modal -->
-						<button type="button" class="btn btn-call" data-toggle="modal" data-target="#modalCallPopup">
+						<button type="button" class="btn btn-call" data-toggle="modal" data-target="#modalCallPopup" aria-label="Call us">
 
 						</button>
 
