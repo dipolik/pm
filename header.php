@@ -29,7 +29,7 @@
 
 
 	<!-- Google Tag Manager -->
-	<script>
+	<script async>
 		var fired = false;
 
 		window.addEventListener('load', () => {
