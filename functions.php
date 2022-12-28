@@ -202,17 +202,17 @@ add_action( 'widgets_init', 'pralniymaster_widgets_init' );
 /**
  * Unregistering default wp JQuery .
  */
-function replace_jquery() {
-	if(wp_script_is('jquery', 'registered')) wp_deregister_script('jquery');
-	// I suggest forgetting about "Async" and qneuing your new jquery here:
-	$new_jquery_location = '//code.jquery.com/jquery-3.6.3.min.js'; // could be a local file, whatever you like...
-	$in_footer = true; // or false, your choice...
-	wp_register_script('jquery', $new_jquery_location, array(), '', $in_footer);
-	wp_enqueue_script('jquery');
-  }
+// function replace_jquery() {
+// 	if(wp_script_is('jquery', 'registered')) wp_deregister_script('jquery');
+// 	// I suggest forgetting about "Async" and qneuing your new jquery here:
+// 	$new_jquery_location = '//code.jquery.com/jquery-3.6.3.min.js'; // could be a local file, whatever you like...
+// 	$in_footer = true; // or false, your choice...
+// 	wp_register_script('jquery', $new_jquery_location, array(), '', $in_footer);
+// 	wp_enqueue_script('jquery');
+//   }
   
-  add_action('wp_enqueue_scripts', 'replace_jquery');
-  add_action('admin_enqueue_scripts', 'replace_jquery');
+//   add_action('wp_enqueue_scripts', 'replace_jquery');
+//   add_action('admin_enqueue_scripts', 'replace_jquery');
 
 
 /**
