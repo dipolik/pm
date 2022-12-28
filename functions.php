@@ -198,23 +198,6 @@ function pralniymaster_widgets_init() {
 }
 add_action( 'widgets_init', 'pralniymaster_widgets_init' );
 
-
-/**
- * Unregistering default wp JQuery .
- */
-// function replace_jquery() {
-// 	if(wp_script_is('jquery', 'registered')) wp_deregister_script('jquery');
-// 	// I suggest forgetting about "Async" and qneuing your new jquery here:
-// 	$new_jquery_location = '//code.jquery.com/jquery-3.6.3.min.js'; // could be a local file, whatever you like...
-// 	$in_footer = true; // or false, your choice...
-// 	wp_register_script('jquery', $new_jquery_location, array(), '', $in_footer);
-// 	wp_enqueue_script('jquery');
-//   }
-  
-//   add_action('wp_enqueue_scripts', 'replace_jquery');
-//   add_action('admin_enqueue_scripts', 'replace_jquery');
-
-
 /**
  * Enqueue scripts and styles.
  */
@@ -241,14 +224,6 @@ function pralniymaster_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'pralniymaster_scripts' );
 
-
-// function gomahamaya_dns_prefetch() {
-//     echo '<meta http-equiv="x-dns-prefetch-control" content="on">
-// <link rel="dns-prefetch" href="//3rd-party-domain1.com" />
-// <link rel="dns-prefetch" href="//3rd-party-domain2.com" /> 
-// <link rel="dns-prefetch" href="//3rd-party-domain3.com" />'; // last step has '; make sure it should be therein last 
-// }
-// add_action('wp_head', 'gomahamaya_dns_prefetch', 0);
 
 /*
 * Add 'Defer' to scripts
