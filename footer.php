@@ -17,7 +17,7 @@
     	            <div class="col-12 col-md-4">
     	                <a href="#bannerSection" class="site-logo site-logo--lght">
     	                    <img src="<?php bloginfo('template_url'); ?>/img/logo-icon-dark.svg" alt="Пральний Майстер"
-    	                            class="icon">
+    	                            class="icon" width="280" height="100">
     	                     <span>Пральний Майстер</span>
     	                </a>
     	                
