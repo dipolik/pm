@@ -63,8 +63,8 @@ function ready() {
     parentLangLinkName.innerHTML = 'UA';
     ukraineLangLink.children[0].children[0].innerHTML = 'UA';
     orksLangLink.children[0].children[0].innerHTML = 'RU';
-    
-    if (window.location.href.includes("ru")) {
+
+    if (window.location.href.includes("/ru/")) {
         parentLangLinkName.innerHTML = 'RU'
     }
     
