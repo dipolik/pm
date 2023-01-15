@@ -47,7 +47,6 @@ function ready() {
     }
 
     // Move Binotel tooltip to right side
-    
     function moveBinotelTooltip () {
         let binotelTooltip = document.querySelectorAll('.bingc-phone-button-tooltip-bottom-left')[0];
         binotelTooltip.classList.add('bingc-phone-button-tooltip-bottom-right');
@@ -64,6 +63,10 @@ function ready() {
     parentLangLinkName.innerHTML = 'UA';
     ukraineLangLink.children[0].children[0].innerHTML = 'UA';
     orksLangLink.children[0].children[0].innerHTML = 'RU';
+    
+    if (window.location.href.includes("ru")) {
+        parentLangLinkName.innerHTML = 'RU'
+    }
     
     // Show Extended Form in banner
     let bannerDiscountBtn = document.getElementsByClassName('js-btn-discount-banner')[0];

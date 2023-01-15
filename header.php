@@ -128,7 +128,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <span class="toggle-line"></span>
                         <span class="toggle-line"></span>
                         <span class="toggle-line"></span>
-                    </button>
+                </button>
+
+				<div class="navbar-mobile-phones-wrapper"><a href="tel:+380966000354" class="mobile-phones">+38 (096) 6000 354</a><a href="tel:+380936000354" class="mobile-phones">+38 (093) 6000 354</a></div>
 
     	    	<?php
     	    	wp_nav_menu( array(

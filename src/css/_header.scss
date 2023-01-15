@@ -60,6 +60,36 @@
     }
   }
 
+  &-mobile-phones-wrapper {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+    width: 100vw;
+    padding-top: 10px;
+
+    @media (min-width: 375px) {
+      flex-flow: wrap column;
+      position: absolute;
+      right: 90px;
+      left: auto;
+      top: -7px;
+      width: auto;
+    } 
+
+    @media (min-width: 992px) {
+      display: none;
+    }
+
+    .mobile-phones {
+      font-size: 0.9rem;
+      font-weight: 500; 
+      
+      @media (min-width: 375px) {
+        font-size: 0.8rem;
+      } 
+    }
+  }
+
   .site-logo {
     .icon {
       width: 120px;

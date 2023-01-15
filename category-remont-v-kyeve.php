@@ -30,6 +30,7 @@ get_header();
 				<img class="card-img-top" src="<?php echo $img_url[0];?>"/>
   					<div class="card-body">
 					  <h3 class="card-title"><?php the_title( );?></h3>
+					  <p class="card-text"><?php the_excerpt( );?></p>
   					</div>
 				</a>
 			</div>
