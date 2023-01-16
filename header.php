@@ -131,8 +131,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </button>
 
 				<div class="navbar-mobile-phones-wrapper">
-					<a href="tel:+380966000354" class="mobile-phones binct-phone-number-1" data-binct-original="7">+38 (096) 600-03-54</a>
-					<a href="tel:+380936000354" class="mobile-phones binct-phone-number-2" data-binct-original="8">+38 (093) 600-03-54</a>
+					<a href="tel:+380966000354" class="mobile-phones binct-phone-number-1">+38 (096) 600-03-54</a>
+					<a href="tel:+380936000354" class="mobile-phones binct-phone-number-2">+38 (093) 600-03-54</a>
 				</div>
 
     	    	<?php
