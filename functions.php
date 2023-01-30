@@ -215,7 +215,6 @@ function pralniymaster_scripts() {
 
 	wp_enqueue_script( 'bootstrap-js' , get_template_directory_uri() . '/bootstrap/js/bootstrap.bundle.min.js', array('jquery') );
 	wp_enqueue_script( 'lazy-js' , get_template_directory_uri() . '/js/lazy.js', array('jquery'), null, 'in_footer');
-	wp_enqueue_script( 'wow-js' , get_template_directory_uri() . '/js/wow.min.js', array('jquery'), null, 'in_footer');
 	wp_enqueue_script( 'custom' , get_template_directory_uri() . '/js/custom.js', array('jquery'), null, 'in_footer');
 	
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
@@ -231,7 +230,7 @@ add_action( 'wp_enqueue_scripts', 'pralniymaster_scripts' );
 
 function add_defer_attribute($tag, $handle) {
 	// add script handles to the array below
-	$scripts_to_defer = array('bootstrap-js', 'wow-js', 'lazy-js', 'custom');
+	$scripts_to_defer = array('bootstrap-js', 'lazy-js', 'custom');
   
 	foreach($scripts_to_defer as $defer_script) {
 	   if ($defer_script === $handle) {

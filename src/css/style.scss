@@ -22,16 +22,10 @@
 @import 'sidebar';
 @import 'binotel';
 
-
-
 body {
     font-family: 'Montserrat', sans-serif;
     color: $black;
 }
-
-.wow {
-    visibility: hidden;
-  }
 
 .site-content {
     padding-top: 4rem !important;
@@ -39,20 +33,4 @@ body {
     @include screen_992 {
         padding-top: 7rem !important;
     }
-}
-
-.fadeInUp {
-    animation-duration: .4s;
-}
-
-.slideInLeft,
-.slideInRight {
-    animation-duration: .8s;
-}
-
-@media only screen and (max-width:768px) {
-    .wow {
-        animation-delay: 0s !important;
-    }
-
 }

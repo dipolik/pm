@@ -43,84 +43,84 @@ get_header();
                 <div class="row">
                     <div class="col-12">
                         <div class="container-box">
-                            <h2 class="s-title title-line wow fadeInUp"><?php pll_e('Чому обирають саме нас:') ?></h2>
+                            <h2 class="s-title title-line "><?php pll_e('Чому обирають саме нас:') ?></h2>
                             <div
                                 class="achiv-wrapper d-flex flex-column flex-md-row flex-wrap justify-content-md-between ">
 
                                 <div class="achiv-item">
-                                    <img class="lazy achiv-item--img wow fadeInUp" data-wow-delay=".2s"
+                                    <img class="lazy achiv-item--img " 
                                         src="<?php bloginfo('template_url'); ?>/img/loading.png" 
                                         data-src="<?php bloginfo('template_url'); ?>/img/achiv-comfort.png"
                                         data-srcset="<?php bloginfo('template_url'); ?>/img/achiv-comfort.png" 
                                         alt="Комфортний ремонт пральних машин">
-                                    <p class="achiv-item--title achiv-item--title_blue wow fadeInUp"
-                                        data-wow-delay=".3s"><?php pll_e('Комфортний ремонт') ?></p>
-                                    <p class="achiv-item--desc wow fadeInUp" data-wow-delay=".5s"><?php pll_e('Ми проводимо ремонт на місці. Тож Вам не потрібно нікуди везти пральну машину.') ?></p>
+                                    <p class="achiv-item--title achiv-item--title_blue "
+                                        ><?php pll_e('Комфортний ремонт') ?></p>
+                                    <p class="achiv-item--desc " ><?php pll_e('Ми проводимо ремонт на місці. Тож Вам не потрібно нікуди везти пральну машину.') ?></p>
                                 </div>
 
                                 <div class="achiv-item">
-                                    <img class="lazy achiv-item--img wow fadeInUp" data-wow-delay=".2s"
+                                    <img class="lazy achiv-item--img " 
                                         src="<?php bloginfo('template_url'); ?>/img/loading.png" data-src="<?php bloginfo('template_url'); ?>/img/achiv-calendar.png"
                                         data-srcset="<?php bloginfo('template_url'); ?>/img/achiv-calendar.png" alt="Ремонт пральних машин у Києві">
-                                    <p class="achiv-item--title achiv-item--title_blue wow fadeInUp"
-                                        data-wow-delay=".3s"><?php pll_e('10 Років турботи') ?></p>
-                                    <p class="achiv-item--desc wow fadeInUp" data-wow-delay=".5s"><?php pll_e('Ми ремонтуємо техніку з 2012 року. Ми знаємо все про ремонт пральних машин') ?></p>
+                                    <p class="achiv-item--title achiv-item--title_blue "
+                                        ><?php pll_e('10 Років турботи') ?></p>
+                                    <p class="achiv-item--desc " ><?php pll_e('Ми ремонтуємо техніку з 2012 року. Ми знаємо все про ремонт пральних машин') ?></p>
                                 </div>
 
                                 <div class="achiv-item">
-                                    <img class="lazy achiv-item--img wow fadeInUp" data-wow-delay=".2s"
+                                    <img class="lazy achiv-item--img " 
                                         src="<?php bloginfo('template_url'); ?>/img/loading.png" 
                                         data-src="<?php bloginfo('template_url'); ?>/img/achiv-masters.png"
                                         data-srcset="<?php bloginfo('template_url'); ?>/img/achiv-masters.png"
                                         alt="Більше ніж 100 майстрів">
-                                    <p class="achiv-item--title achiv-item--title_blue wow fadeInUp"
-                                        data-wow-delay=".3s"><?php pll_e('100+ майстрів') ?></p>
-                                    <p class="achiv-item--desc wow fadeInUp" data-wow-delay=".5s"><?php pll_e('В нашому арсеналі більш ніж 100 майстрів. Готові приїхати швидко в кожному районі Києва.') ?></p>
+                                    <p class="achiv-item--title achiv-item--title_blue "
+                                        ><?php pll_e('100+ майстрів') ?></p>
+                                    <p class="achiv-item--desc " ><?php pll_e('В нашому арсеналі більш ніж 100 майстрів. Готові приїхати швидко в кожному районі Києва.') ?></p>
                                 </div>
 
                                 <div class="achiv-item">
-                                    <img class="lazy achiv-item--img wow fadeInUp" data-wow-delay=".2s"
+                                    <img class="lazy achiv-item--img " 
                                         src="<?php bloginfo('template_url'); ?>/img/loading.png" data-src="<?php bloginfo('template_url'); ?>/img/achiv-safety.png"
                                         data-srcset="<?php bloginfo('template_url'); ?>/img/achiv-safety.png" alt="Ремонт пральних машин з гарантією">
-                                    <p class="achiv-item--title achiv-item--title_blue wow fadeInUp"
-                                        data-wow-delay=".3s"><?php pll_e('Впевненність клієнта') ?></p>
-                                    <p class="achiv-item--desc wow fadeInUp" data-wow-delay=".5s"><?php pll_e('Ми несемо відповідальність за наших майстрів. Гарантуємо сервіс високої якості') ?></p>
+                                    <p class="achiv-item--title achiv-item--title_blue "
+                                        ><?php pll_e('Впевненність клієнта') ?></p>
+                                    <p class="achiv-item--desc " ><?php pll_e('Ми несемо відповідальність за наших майстрів. Гарантуємо сервіс високої якості') ?></p>
                                 </div>
 
                                 <div class="achiv-item">
-                                    <img class="lazy achiv-item--img wow fadeInUp" data-wow-delay=".2s"
+                                    <img class="lazy achiv-item--img " 
                                         src="<?php bloginfo('template_url'); ?>/img/loading.png" data-src="<?php bloginfo('template_url'); ?>/img/achiv-service.png"
                                         data-srcset="<?php bloginfo('template_url'); ?>/img/achiv-service.png" alt="Ремонт пральних машин 24/7">
-                                    <p class="achiv-item--title achiv-item--title_blue wow fadeInUp"
-                                        data-wow-delay=".3s"><?php pll_e('Сервіс 24/7') ?></p>
-                                    <p class="achiv-item--desc wow fadeInUp" data-wow-delay=".5s"><?php pll_e('Ви маєте можливість залишити заявку в будь-який зручний для Вас час.') ?></p>
+                                    <p class="achiv-item--title achiv-item--title_blue "
+                                        ><?php pll_e('Сервіс 24/7') ?></p>
+                                    <p class="achiv-item--desc " ><?php pll_e('Ви маєте можливість залишити заявку в будь-який зручний для Вас час.') ?></p>
                                 </div>
 
                                 <div class="achiv-item">
-                                    <img class="lazy achiv-item--img wow fadeInUp" data-wow-delay=".2s"
+                                    <img class="lazy achiv-item--img " 
                                         src="<?php bloginfo('template_url'); ?>/img/loading.png" data-src="<?php bloginfo('template_url'); ?>/img/achiv-health.png"
                                         data-srcset="<?php bloginfo('template_url'); ?>/img/achiv-health.png" alt="Комфортний ремонт пральних машин">
-                                    <p class="achiv-item--title achiv-item--title_blue wow fadeInUp"
-                                        data-wow-delay=".3s"><?php pll_e('Захист здоров’я') ?></p>
-                                    <p class="achiv-item--desc wow fadeInUp" data-wow-delay=".5s"><?php pll_e('Майстри проходять щоденний мед. контроль та виконують свою роботу в масках.') ?></p>
+                                    <p class="achiv-item--title achiv-item--title_blue "
+                                        ><?php pll_e('Захист здоров’я') ?></p>
+                                    <p class="achiv-item--desc "><?php pll_e('Майстри проходять щоденний мед. контроль та виконують свою роботу в масках.') ?></p>
                                 </div>
 
                                 <div class="achiv-item">
-                                    <img class="lazy achiv-item--img wow fadeInUp" data-wow-delay=".2s"
+                                    <img class="lazy achiv-item--img " 
                                         src="<?php bloginfo('template_url'); ?>/img/loading.png" data-src="<?php bloginfo('template_url'); ?>/img/achiv-payment.png"
                                         data-srcset="<?php bloginfo('template_url'); ?>/img/achiv-payment.png" alt="Комфортний ремонт пральних машин">
-                                    <p class="achiv-item--title achiv-item--title_blue wow fadeInUp"
-                                        data-wow-delay=".3s"><?php pll_e('Зручна оплата') ?></p>
-                                    <p class="achiv-item--desc wow fadeInUp" data-wow-delay=".5s"><?php pll_e('Оплата ремонту зручним для Вас способом, готівкою або переводом на картку.') ?></p>
+                                    <p class="achiv-item--title achiv-item--title_blue "
+                                        ><?php pll_e('Зручна оплата') ?></p>
+                                    <p class="achiv-item--desc " ><?php pll_e('Оплата ремонту зручним для Вас способом, готівкою або переводом на картку.') ?></p>
                                 </div>
 
                                 <div class="achiv-item">
-                                    <img class="lazy achiv-item--img wow fadeInUp" data-wow-delay=".2s"
+                                    <img class="lazy achiv-item--img " 
                                         src="<?php bloginfo('template_url'); ?>/img/loading.png" data-src="<?php bloginfo('template_url'); ?>/img/achiv-time.png"
                                         data-srcset="<?php bloginfo('template_url'); ?>/img/achiv-time.png" alt="Комфортний ремонт пральних машин">
-                                    <p class="achiv-item--title achiv-item--title_blue wow fadeInUp"
-                                        data-wow-delay=".3s"><?php pll_e('Економія часу') ?></p>
-                                    <p class="achiv-item--desc wow fadeInUp" data-wow-delay=".5s"><?php pll_e('Проводимо ремонт в зручний час, узгодженний з Вами, заздалегіть.') ?></p>
+                                    <p class="achiv-item--title achiv-item--title_blue "
+                                        ><?php pll_e('Економія часу') ?></p>
+                                    <p class="achiv-item--desc " ><?php pll_e('Проводимо ремонт в зручний час, узгодженний з Вами, заздалегіть.') ?></p>
                                 </div>
                             </div>
                         </div>
@@ -145,8 +145,8 @@ get_header();
             <div class="row">
                 <div class="col-12 col-md-7 col-lg-6 offset-lg-1">
                     <div class="container-box">
-                        <h2 class="s-title title-line wow fadeInUp"><?php pll_e('Ставимось з розумінням до Ваших побажань')?></h2>
-                        <p class="half-block--text wow fadeInUp" data-wow-delay=".3s"><?php pll_e('Ваша пральна машина відмовляється віджимати білизну, зливати мильну воду, запускати процес полоскання чи зовсім не нагріває воду для прання? Тоді слід негайно викликати майстра та припинити прання речей. Наша компанія пропонує допомогу для всіх жителів Києва, тому що ми маємо величезний досвід роботи з пральними машинами різних моделей та різних брендів, починаючи з 2009 року. 	Завдяки професіоналізму команди наших фахівців, нам вдається впоратися із завданнями всіляких рівнів складності: починаючи з банального чищення фільтра, що засмічений, і закінчуючи складними відновлювальними роботами, заміною комплектуючих, що не підлягають ремонту (заміна підшипників, відновлення електронного модуля та інше).')?>
+                        <h2 class="s-title title-line "><?php pll_e('Ставимось з розумінням до Ваших побажань')?></h2>
+                        <p class="half-block--text " ><?php pll_e('Ваша пральна машина відмовляється віджимати білизну, зливати мильну воду, запускати процес полоскання чи зовсім не нагріває воду для прання? Тоді слід негайно викликати майстра та припинити прання речей. Наша компанія пропонує допомогу для всіх жителів Києва, тому що ми маємо величезний досвід роботи з пральними машинами різних моделей та різних брендів, починаючи з 2009 року. 	Завдяки професіоналізму команди наших фахівців, нам вдається впоратися із завданнями всіляких рівнів складності: починаючи з банального чищення фільтра, що засмічений, і закінчуючи складними відновлювальними роботами, заміною комплектуючих, що не підлягають ремонту (заміна підшипників, відновлення електронного модуля та інше).')?>
                         </p>
                     </div>
                 </div>
@@ -163,12 +163,12 @@ get_header();
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h2 class="s-title white title-line wow fadeInUp"><?php pll_e('Розповсюджені несправності')?></h2>
+                        <h2 class="s-title white title-line "><?php pll_e('Розповсюджені несправності')?></h2>
                     </div>
                     <div class="col-12">
                         <div class="d-md-flex flex-md-row flex-md-wrap justify-content-md-between content-box ">
 
-                            <div class="price-card decor-line wow fadeInUp" data-wow-delay=".2s">
+                            <div class="price-card decor-line " >
                                 <p class="price-card--title title-line"><?php pll_e('Не віджимає:')?></p>
                                 <ul class="price-card--list">
                                     <li class="price-card--item"><?php pll_e('Заміна електронного модуля')?></li>
@@ -179,7 +179,7 @@ get_header();
                                 <p class="price-card--price"><?php pll_e('від 350 грн')?></p>
                             </div>
 
-                            <div class="price-card decor-line wow fadeInUp" data-wow-delay=".3s">
+                            <div class="price-card decor-line " >
                             <p class="price-card--title title-line"><?php pll_e('Не набирає воду:')?></p>
                             
                                 <ul class="price-card--list">
@@ -192,7 +192,7 @@ get_header();
                             
                             </div>
 
-                            <div class="price-card decor-line wow fadeInUp" data-wow-delay=".4s">
+                            <div class="price-card decor-line " >
                             <p class="price-card--title title-line"><?php pll_e('Протікає:')?></p>
                                 <ul class="price-card--list">
                                     <li class="price-card--item"><?php pll_e('Заміна манжети')?></li>
@@ -204,7 +204,7 @@ get_header();
                                 
                             </div>
 
-                            <div class="price-card decor-line wow fadeInUp" data-wow-delay=".5s">
+                            <div class="price-card decor-line " >
                             <p class="price-card--title title-line"><?php pll_e('Не зливає воду:')?></p>
                                 <ul class="price-card--list">
                                     <li class="price-card--item"><?php pll_e('Усунення засмічення')?></li>
@@ -214,7 +214,7 @@ get_header();
                                 <p class="price-card--price"><?php pll_e('від 450 грн')?></p>
                             </div>
 
-                            <div class="price-card decor-line wow fadeInUp" data-wow-delay=".6s">
+                            <div class="price-card decor-line " >
                             <p class="price-card--title title-line"><?php pll_e('Не гріє воду:')?></p>
                                 <ul class="price-card--list">
                                     <li class="price-card--item"><?php pll_e('Заміна ТЕНу')?></li>
@@ -224,7 +224,7 @@ get_header();
                                 <p class="price-card--price"><?php pll_e('від 450 грн')?></p>
                             </div>
 
-                            <div class="price-card decor-line wow fadeInUp" data-wow-delay=".7s">
+                            <div class="price-card decor-line " >
                                 
                                 <p class="price-card--title title-line"><?php pll_e('Шумить:')?></p>
                                 <ul class="price-card--list">
@@ -253,7 +253,7 @@ get_header();
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h2 class="s-title title-line wow fadeInUp"><?php pll_e('Як відбувається ремонт:')?></h2>
+                        <h2 class="s-title title-line "><?php pll_e('Як відбувається ремонт:')?></h2>
 
                         <div class="process-wrapper">
                             <ul class="number-list process-list d-md-flex flex-md-wrap justify-content-md-between">
@@ -261,24 +261,24 @@ get_header();
                                     <p class="number"><span class="number-inner">1</span></p>
                                     <p><?php pll_e('Заповнюєте форму')?></p>
                                 </li>
-                                <li class="number-list--item wow slideInRight" data-wow-delay=".3s">
+                                <li class="number-list--item wow slideInRight" >
                                     <p class="number"><span class="number-inner">2</span></p>
                                     <p><?php pll_e('Ми телефонуємо Вам та надаємо первинну консультацію')?></p>
                                 </li>
-                                <li class="number-list--item wow slideInLeft" data-wow-delay=".5s">
+                                <li class="number-list--item wow slideInLeft" >
                                     <p class="number"><span class="number-inner">3</span></p>
                                     <p><?php pll_e('Приїздимо у зручний для Вас час у зручне для Вас місце')?></p>
                                 </li>
-                                <li class="number-list--item wow slideInRight" data-wow-delay=".7s">
+                                <li class="number-list--item wow slideInRight" >
                                     <p class="number"><span class="number-inner">4</span></p>
                                     <p><?php pll_e('Проводимо огляд та діагностику пральної машини, узгоджуємо ціну')?></p>
                                 </li>
-                                <li class="number-list--item wow slideInLeft" data-wow-delay=".9s">
+                                <li class="number-list--item wow slideInLeft" >
                                     <p class="number"><span class="number-inner">5</span></p>
                                     <p><?php pll_e('Після ремонту, видаємо гарантію. Не залишаємо після себе сміття.')?></p>
                                 </li>
                             </ul>
-                            <a href="#contactForm" class="btn btn-theme wow slideInRight" data-wow-delay="1s"> <span><?php pll_e('ЗАМОВИТИ РЕМОНТ')?></span></a>
+                            <a href="#contactForm" class="btn btn-theme wow slideInRight"> <span><?php pll_e('ЗАМОВИТИ РЕМОНТ')?></span></a>
                         </div>
                     </div>
                 </div>
@@ -296,8 +296,8 @@ get_header();
                     <div class="col-12">
 
                         <div class="content-box decor-line">
-                            <h2 class="s-title title-line wow fadeInUp"><?php pll_e('Надішліть запит і ми одразу Вам передзвонимо')?></h2>
-                            <p class="s-description wow fadeInUp" data-wow-delay=".2s"><?php pll_e('Обіцяємо Вам не надсилати спам, не передавади Ваші данні третім особам, та повну конфіденційність')?></p>
+                            <h2 class="s-title title-line "><?php pll_e('Надішліть запит і ми одразу Вам передзвонимо')?></h2>
+                            <p class="s-description " ><?php pll_e('Обіцяємо Вам не надсилати спам, не передавади Ваші данні третім особам, та повну конфіденційність')?></p>
 								<!-- cf7 Homepage Form-->
 								<?php echo do_shortcode( '[contact-form-7 id="20" title="Homepage Contact Form"]' ); ?>
 								
